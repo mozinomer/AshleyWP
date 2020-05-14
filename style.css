@@ -23,3 +23,63 @@ p
 .alignCenter {
 	align-items: center;
 }
+a {
+    text-decoration: none !important;
+}
+
+/*footer css*/
+#mainFooter {
+    background: #000000;
+    text-align: center;
+    padding: 60px 0px 40px;
+}
+
+#mainFooter h4 {
+    color: #c7b187;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin: 0px;
+}
+
+#menu-footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#menu-footer-menu li:nth-child(even) {
+    margin: 0px 20px;
+}
+
+#menu-footer-menu a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.Policies a {
+    color: #ffff;
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+.Policies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Policies li {
+    margin-right: 20px;
+}
+.footerLogo {
+    max-width: 50px;
+    max-height: 50px;
+}
+.copyRights {
+    margin: 20px 0px 0px;
+    color: #fff;
+    opacity: 0.4;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
