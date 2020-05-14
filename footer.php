@@ -1,4 +1,37 @@
-
+<div class="SocialProfileSection">
+	<div class="profileBgSocail">
+		<div class="contentheading">
+			<span class="NumberProfile">
+				08
+			</span>
+			<h5>
+				we are
+			</h5>
+			<h2>
+				Social
+			</h2>
+		</div>
+	</div>
+	<div class="SocialIcons">
+		<div class="displayFlex">
+			<a class="IconCOntainer displayFlex alignCenter justifyC">
+				<i class="fa fa-facebook"></i>
+			</a>
+			<a class="IconCOntainer displayFlex alignCenter justifyC">
+				<i class="fa fa-instagram"></i>
+			</a>
+			<a class="IconCOntainer displayFlex alignCenter justifyC">
+				<i class="fa fa-twitter"></i>
+			</a>
+			<a class="IconCOntainer displayFlex alignCenter justifyC">
+				<i class="fa fa-facebook"></i>
+			</a>
+			<a class="IconCOntainer displayFlex alignCenter justifyC">
+				<i class="fa fa-pinterest"></i>
+			</a>
+		</div>
+	</div>
+</div>
 <footer id="mainFooter">
 	<div class="minimumContainer">
 		<?php if( get_field('footer_logo', 'option') ) { ?>

@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+.idiot {
+	font-family: 'GFS Didot', serif;
+}
+.worksans {
+	font-family: 'Work Sans', sans-serif;
+}
 body,
 .row,
 ul,
@@ -32,6 +40,7 @@ a {
     background: #000000;
     text-align: center;
     padding: 60px 0px 40px;
+    font-family: 'Work Sans', sans-serif
 }
 
 #mainFooter h4 {
@@ -53,8 +62,10 @@ a {
 }
 
 #menu-footer-menu a {
-    color: #fff;
+	color: #fff;
     font-size: 15px;
+    font-weight: 500;
+    opacity: 0.9;
 }
 
 .Policies a {
@@ -82,4 +93,44 @@ a {
     opacity: 0.4;
     letter-spacing: 2px;
     font-size: 12px;
+}
+footer .minimumContainer {
+    max-width: 700px;
+    margin: auto;
+}
+.IconCOntainer {
+	width: 100%;
+	min-height: 167px;
+	background: #0f0f0f;
+    cursor: pointer;
+}
+.IconCOntainer:nth-child(even) {
+    background: #212121;
+}
+.IconCOntainer:hover {
+	background: url('./assets/images/gradient.png');
+}
+.IconCOntainer i {
+	font-size: 36px;
+	color: #fff;
+}
+.profileBgSocail {
+    background: url('./assets/images/Social.png');
+    background-size: 100% 100%;
+    padding: 50px 0px;
+}
+
+.profileBgSocail span {
+	display: block;
+}
+.profileBgSocail h5 {
+
+}
+.profileBgSocail h2  {
+
+}
+.profileBgSocail .contentheading {
+    max-width: 300px;
+    margin: auto;
+    display: block;
 }
