@@ -1,0 +1,25 @@
+body,
+.row,
+ul,
+ol,
+p
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.displayFlex {
+	display: flex;
+}
+.flexWrap {
+	flex-wrap: wrap;
+}
+.justifyB {
+	justify-content: space-between;
+}
+.justifyC {
+	justify-content: center;
+}
+.alignCenter {
+	align-items: center;
+}
