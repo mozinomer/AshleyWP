@@ -1,3 +1,14 @@
+<div class="HomeWorth">
+	<div class="container">
+		<h2>
+			What is your home worth?
+		</h2>
+		<a href="#" class="CalltoAction">
+			Find Out Now
+		</a>
+	</div>
+</div>
+
 <div class="SocialProfileSection">
 	<div class="profileBgSocail">
 		<div class="contentheading">
@@ -14,19 +25,19 @@
 	</div>
 	<div class="SocialIcons">
 		<div class="displayFlex">
-			<a class="IconCOntainer displayFlex alignCenter justifyC">
+			<a class="IconCOntainer displayFlex alignCenter justifyC" href="<?php the_field('facebook', 'option') ?>">
 				<i class="fa fa-facebook"></i>
 			</a>
-			<a class="IconCOntainer displayFlex alignCenter justifyC">
+			<a class="IconCOntainer displayFlex alignCenter justifyC" href="<?php the_field('instagram', 'option') ?>">
 				<i class="fa fa-instagram"></i>
 			</a>
-			<a class="IconCOntainer displayFlex alignCenter justifyC">
+			<a class="IconCOntainer displayFlex alignCenter justifyC" href="<?php the_field('twitter', 'option') ?>">
 				<i class="fa fa-twitter"></i>
 			</a>
-			<a class="IconCOntainer displayFlex alignCenter justifyC">
-				<i class="fa fa-facebook"></i>
+			<a class="IconCOntainer displayFlex alignCenter justifyC" href="<?php the_field('google_plus', 'option') ?>">
+				<i class="fa fa-google-plus"></i>
 			</a>
-			<a class="IconCOntainer displayFlex alignCenter justifyC">
+			<a class="IconCOntainer displayFlex alignCenter justifyC" href="<?php the_field('pinterest', 'option') ?>">
 				<i class="fa fa-pinterest"></i>
 			</a>
 		</div>
