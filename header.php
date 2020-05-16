@@ -10,4 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
 </head>
 <?php wp_head(); ?>
-<body>
+<body <?php echo body_class(); ?>>
+<header id="Mainheader">
+	<div class="container">
+		<div class="containerRow displayFlex justifyB alignCenter">
+			<div class="logoContainerHeader">
+				<img src="">
+			</div>
+		</div>
+	</div>
+</header>
