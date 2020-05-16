@@ -16,6 +16,10 @@ p
 	padding: 0px;
 	list-style: none;
 }
+img {
+	max-width: 100%;
+	display: block;
+}
 .displayFlex {
 	display: flex;
 }
@@ -191,4 +195,123 @@ footer .minimumContainer {
 	font-size: 40px;
 	text-transform: uppercase;
 	color: #262626;
+}
+#Logomain {
+    max-width: 181px;
+    max-height: 131px;
+}
+.UpperDow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainerHeader {
+    width: 18%;
+    /* background: red; */
+}
+
+.containerListadnCall {
+    width: 82%;
+}
+
+.UpperDow p {
+    color: #ccbe9d;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.UpperDow p::after,.UpperDow p::before {
+    content: "";
+    display: block;
+    width: 92%;
+    height: 2px;
+    background: #4d687a;
+    position: absolute;
+    /* left: -100%; */
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 152px;
+}
+
+.UpperDow p::after {
+    left: -70%;
+}
+
+.UpperDow p::before {
+    right: -70%;
+}
+
+.CallerId {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CallerId span {
+    display: block;
+    font-size: 14px;
+    color: #c7b187;
+}
+
+.CallerId a {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.CallerId img {
+    margin-right: 10px;
+}
+
+.CallerId h2 {
+    margin-bottom: 0px;
+}
+.mainMenu ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainMenu a {
+    font-size: 12px;
+}
+.mainMenu li:not(:first-child) {
+	margin-right: 20px;
+}
+.bannerContainerHeader {
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-color: #000000b0;
+    color: #ffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 65px; */
+    min-height: 509px;
+    background-attachment: fixed;
+}
+
+.bannerContainerHeader h2 {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-family: 'GFS Didot', serif;
+    font-weight: 700;
+}
+
+#Mainheader {
+    position: fixed;
+    width: 100%;
+}
+
+#Mainheader nav a {
+    color: #fff;
 }

@@ -15,8 +15,94 @@
 	<div class="container">
 		<div class="containerRow displayFlex justifyB alignCenter">
 			<div class="logoContainerHeader">
-				<img src="">
+				<?php 
+				   $custom_logo_id = get_theme_mod( 'custom_logo' );
+				   $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+				?>
+				<a href="<?php bloginfo('url');?>">
+					<img src="<?php echo $image[0]; ?>" alt="" id="Logomain">
+				</a>
+			</div>
+			<div class="containerListadnCall">
+				<div class="UpperDow">
+					<p>
+						Luxury Park City Real Estate
+					</p>
+					<div class="CallerId">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/CallerId.png">
+						<h2>
+							<span>Call us on</span>
+							<a href="tel:+972 4542">+972 4542</a>
+						</h2>
+					</div>
+				</div>
+				<nav class="mainMenu">
+					<ul>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Area/Communities
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 	</div>
 </header>
+<div class="bannerContainerHeader" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
+	<div class="container">
+		<h2>
+			<?php the_title(); ?>
+		</h2>
+	</div>
+</div>
