@@ -101,8 +101,62 @@
 </header>
 <div class="bannerContainerHeader" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
 	<div class="container">
-		<h2>
-			<?php the_title(); ?>
-		</h2>
+		<?php if (! is_single()) { ?>
+			<h2>
+				<?php the_title(); ?>
+			</h2>
+		<?php } ?>
 	</div>
 </div>
+<div class="container">
+<div class="breaCrumb">
+	<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+	    <?php 
+	    	if(function_exists('bcn_display')) {
+		        bcn_display();
+		    }
+	    ?>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
