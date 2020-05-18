@@ -80,7 +80,7 @@ if ( have_posts() ) {
 			<?php $data_query =  new WP_Query(array('post_type' => 'post', 'order_by','Des', 'posts_per_page' =>3));?>
 			<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
 				<div class="col-md-4">
-					<div class="backgroundImageCOntainer" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
+					<a href="<?php the_permalink(); ?>" class="backgroundImageCOntainer" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>);">
 						<div class="contentsi">
 							<span class="datePostedRelated">
 								<?php echo get_the_date(); ?>
@@ -89,53 +89,13 @@ if ( have_posts() ) {
 								<?php the_title(); ?>
 							</h5>
 						</div>
-					</div>
+					</a>
 				</div>
 			<?php endwhile?>
 		</div>
 	</div>
 </div>
 </div>
-
-
-
-Issue
-Major Responsiveness in all pages 
-User navigation dropDown not responsive in some case on some diff browsers
-<!-- Map Issues on All explore pages  -->
-<!-- Image Round On Map -->
-Model Styling On Plans Page and Edit Subscription Page
-Date time Picker Styling On Create booking
-Facility link issue on Profile
-send offer Button Styling 
-Notification bell Icon 
-Notification nav bar show issue Drop Down
-Explore Coach & Facility & Athlete list responsiveness 
-Time Selector not working on safari 
-Show selected on Mon Tue Wed on timings add screen and edit screen
-Public profile Image not correct and responsiveness issues 
-User DropDown ResponsiveNess issues 
-User Available Dot sign on image
-Ratings Count with starts Colours and Responsveness issues 
-Send Counter Offer button
-Booking Tags on My sessions Page According to new Design 
-Counter Offer Line Mark on Old date and times on view session and My Sessions Screen
-Send Invite Button Styling On create and View Booking Page And also Search icon is not showing properly
-Edit Profile Image view not responsive
-Notifications DropDown Not Responsive and Showing well
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -103,7 +103,7 @@
 </header>
 <div class="bannerContainerHeader" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
 	<div class="container">
-		<?php if (! is_single()) { ?>
+		<?php if (is_page('Blog')) { ?>
 			<h2>
 				<?php the_title(); ?>
 			</h2>
