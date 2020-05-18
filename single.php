@@ -8,12 +8,12 @@
 		<div class="infoPost">
 			<ul>
 				<li class="author">
-					<img src="">
-					<?php the_author(); ?>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/author.png">
+					<?php echo get_the_author(); ?>
 				</li>
 				<li class="dateposted">
-					<img src="">
-					<?php the_date(); ?>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/calender.png">
+					<?php echo get_the_date(); ?>
 				</li>
 			</ul>
 		</div>

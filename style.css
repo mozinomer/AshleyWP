@@ -400,3 +400,30 @@ footer .minimumContainer {
 #PostContainerBlog li:last-child {
     border: none;
 }
+.infoPost ul {
+    display: flex;
+    align-items: center;
+}
+
+.infoPost li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.infoPost li img {
+    margin-right: 15px;
+}
+
+.ContentSingleCOntainer h2 {
+    font-size: 35px;
+    line-height: 44px;
+    max-width: 70%;
+    color: #262626;
+    font-family: 'GFS Didot', serif;
+    margin: 0px 0px 20px;
+}
