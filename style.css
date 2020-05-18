@@ -403,6 +403,7 @@ footer .minimumContainer {
 .infoPost ul {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .infoPost li {
@@ -426,4 +427,111 @@ footer .minimumContainer {
     color: #262626;
     font-family: 'GFS Didot', serif;
     margin: 0px 0px 20px;
+}
+.ContentSingleCOntainer p {
+    font-size: 18px;
+    color: #5c5353;
+    line-height: 24px;
+}
+.share_text_mobile {
+    font-weight: 600;
+    color: #111111;
+}
+
+.ShareLinks {
+    margin: 100px 0px 0px;
+    border: 1px solid #4444;
+    padding: 20px 100px;
+    border-left: 0;
+    border-right: 0;
+}
+
+.ShareLinks i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.LInksSocial span {
+    margin-right: 14px;
+}
+
+.ShareLinks i:hover {
+    background: #ccbe9d;
+    color: #ffff;
+    border-color: #ccbe9d;
+}
+.backgroundImageCOntainer {
+    min-height: 417px;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.backgroundImageCOntainer h5 {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.backgroundImageCOntainer span {
+    flex: 0 100%;
+    background: url('./assets/images/gradient.png');
+    display: block;
+    width: 100%;
+    height: 20px;
+    /* background: url(./assets/images/gradient.png); */
+    display: flex;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    max-width: 105px;
+    font-size: 11px;
+    color: #000000;
+    font-weight: 500;
+    margin: 30px auto 0px;
+    border: 2px solid #aa9771;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.backgroundImageCOntainer span {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.searcher {
+    position: absolute;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./assets/images/gradient.png');
+    font-size: 20px;
+}
+.singlePage {
+    position: relative;
+}
+.ShareLinks {
+    margin-bottom: 80px;
+}
+.ShareLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.NextAndPrevPost a {
+    font-size: 12px;
+    color: #000;
 }
