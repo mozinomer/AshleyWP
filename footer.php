@@ -75,7 +75,27 @@
 		</p>
 	</div>
 </footer>
-
+<script type="text/javascript">
+	 $('.slideLefter').slick({
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  arrows: false,
+	  rows: 0,
+	  infinite: false,
+	  fade: true,
+	  asNavFor: '.slideRight'
+	  centerMode: false,
+	});
+	$('.slideRight').slick({
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  rows: 0,
+	  infinite: false,
+	  asNavFor: '.slideLefter',
+	  focusOnSelect: true
+	  centerMode: false,
+	});
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>

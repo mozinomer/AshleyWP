@@ -61,8 +61,73 @@ if ( have_posts() ) {
 		</div>
 	</div>
 </div>
+<div class="sliderContactpage">
+	<div class="sliderContact">
+		<div class="slideLefter">
+			<div class="slidesLeft">
+				<div class="contentheading">
+					<span class="NumberProfile">
+						08
+					</span>
+					<h5>
+						why
+					</h5>
+					<h2>
+						Client raves
+					</h2>
+				</div>
+				<div class="contentSlider">
+					<h5>
+						a Wonderful Experience
+					</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+					</p>
+					<span class="authorSlider">
+						Sandra White
+					</span>
+				</div>
+			</div>
+			<div class="slidesLeft">
+				<div class="contentheading">
+					<span class="NumberProfile">
+						08
+					</span>
+					<h5>
+						why
+					</h5>
+					<h2>
+						Client raves
+					</h2>
+				</div>
+				<div class="contentSlider">
+					<h5>
+						a Wonderful Experience
+					</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+					</p>
+					<span class="authorSlider">
+						Sandra White
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="slideRight">
+			<div class="imageSlider">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider.png">
+			</div>
+			<div class="imageSlider">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <?php }
 
 }
 
 get_footer();?>
+
