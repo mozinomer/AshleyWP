@@ -781,3 +781,89 @@ input[type=number] {
     line-height: 30px;
     font-size: 18px;
 }
+.boxContainer img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    transition: 0.6s all;
+}
+
+.boxContainer {
+    position: relative;
+    min-height: 431px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxContainer h2 {
+    position: relative;
+    z-index: 2;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'GFS Didot', serif;
+    font-weight: 500;
+}
+
+.boxContainer {
+    cursor: pointer;
+}
+
+.boxContainer:hover img {
+    transform: scale(1.3);
+}
+.row.boxContainerRow {
+    margin: 100px 0px;
+}
+.checklistContainer h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #262626;
+    font-family: 'GFS Didot', serif;
+    margin-bottom: 40px;
+}
+
+.checklistContainer li {
+    position: relative;
+    padding-left: 30px;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.checklistContainer li::before {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 19px;
+    border: 2px solid #d7c8ac;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+}
+
+.checklistContainer li::after {
+    content: "";
+    display: block;
+    width: 3px;
+    height: 7px;
+    border: 1px solid #d7c8ac;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 8px;
+    top: 11px;
+}
+
+h2 {}

@@ -27,36 +27,45 @@ if ( have_posts() ) {
 				</div>
 			</div>
 		</div>
-		<div class="contentCovidPage">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="contetnPageodi">
-						<h2>
-							<?php the_field('headingContent'); ?>
-						</h2>
-						<ul>
-							<?php
-							   $i=1;
-								if( have_rows('COntentCovidPage') ):
-								    while ( have_rows('COntentCovidPage') ) : the_row(); ?>
-								        <li>
-								        	<h6>
-								        		<span>
-								        			<?php echo $i; ?>
-								        		</span>
-								        		<?php the_sub_field('headingName'); ?>
-								        	</h6>
-								        	<p>
-								        		<?php the_sub_field('contentListCvid'); ?>
-								        	</p>
-								        </li>
-								    <?php $i++; endwhile;
-								else :
-								endif;
-							?>
-						</ul>
+	</div>
+	<div class="row boxContainerRow">
+		<?php
+			if( have_rows('box_') ):
+			    while ( have_rows('box_') ) : the_row(); ?>
+					<div class="col-md-4">
+						<div class="boxContainer">
+							<img src="<?php the_sub_field('boxImage'); ?>">
+							<h2>
+								<?php the_sub_field('the_heading'); ?>
+							</h2>
+						</div>
 					</div>
-				</div>
+			    <?php endwhile;
+			else :
+			endif;
+		?>
+	</div>
+	<div class="container checklistContainer">
+		<div class="row">
+			<div class="col-md-7">
+				<h2>
+					<?php the_field('HeadingCheckLIst'); ?>
+				</h2>
+				<ul>
+					<?php
+						if( have_rows('cehck_list') ):
+						    while ( have_rows('cehck_list') ) : the_row(); ?>
+								<li>
+									<?php the_sub_field('checkLIstContent'); ?>
+								</li>
+						    <?php endwhile;
+						else :
+						endif;
+					?>
+				</ul>
+			</div>
+			<div class="col-md-5">
+				<img src="<?php the_field('ImageRightGolf'); ?>">
 			</div>
 		</div>
 	</div>
