@@ -771,3 +771,13 @@ input[type=number] {
     background-blend-mode: multiply;
     background-color: #fff;
 }
+.BlogContainerTop.golfPage h2 {
+    font-size: 90px;
+}
+
+.BlogContainerTop.golfPage p {
+    max-width: 100%;
+    width: 100%;
+    line-height: 30px;
+    font-size: 18px;
+}

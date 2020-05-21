@@ -41,63 +41,11 @@
 					</div>
 				</div>
 				<nav class="mainMenu">
-					<ul>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								Area/Communities
-							</a>
-						</li>
-					</ul>
+					<?php 
+						wp_nav_menu( array( 
+					    'theme_location' => 'headerMenu', 
+					    'container_class' => 'headerMenu' ) ); 
+					?>
 				</nav>
 			</div>
 		</div>
