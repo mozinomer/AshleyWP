@@ -54,8 +54,9 @@ function create_posttype() {
             'public' => true,
             'has_archive' => true,
             'rewrite' => array('slug' => 'development'),
-            'supports' => array( 'title', 'editor',  'excerpt' )
+            'supports' => array( 'title', 'editor',  'excerpt', 'thumbnail' )
         )
     );
 }
 add_action( 'init', 'create_posttype' );
+add_theme_support('post-thumbnails');

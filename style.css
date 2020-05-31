@@ -866,4 +866,33 @@ input[type=number] {
     top: 11px;
 }
 
-h2 {}
+.postContainerD ul#PostContainerBlog li {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 100%;
+}
+.contetnPageodi.postContainerD #PostContainerBlog h4 {
+    font-family: 'GFS Didot', serif;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contetnPageodi.postContainerD #PostContainerBlog .priceIs {
+    margin: 20px 0px 0px;
+    display: block;
+    color: #d1c5a9;
+    font-size: 22px;
+}
+
+.postContainerD ul#PostContainerBlog li {
+    /* align-items: flex-start; */
+}
+
+.imageContaineBLog {
+    height: 100%;
+}
+
+.contetnPageodi.postContainerD #PostContainerBlog a {
+    margin: 20px 0px 0px;
+}

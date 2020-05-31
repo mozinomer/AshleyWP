@@ -53,7 +53,7 @@
 </header>
 <div class="bannerContainerHeader" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
 	<div class="container">
-		<?php if (is_page( array( 'covid', 'blogs', 'mortgage', 'architect', 'new-development' ) ) ) { ?>
+		<?php if (is_page( array( 'covid', 'blogs', 'mortgage', 'architect', 'new-development', 'park-city' ) ) ) { ?>
 			<h2>
 				<?php the_title(); ?>
 			</h2>

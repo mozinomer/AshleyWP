@@ -23,9 +23,9 @@ if ( have_posts() ) {
 								<h2>
 									<?php the_field('headingContent'); ?>
 								</h2>
-							<?php } elseif (is_page('new-development/')) { ?>
+							<?php } elseif (is_page('park-city')) { ?>
 								<h5>
-									see our
+									see about
 								</h5>
 								<h2>
 									<?php the_field('headingContent'); ?>

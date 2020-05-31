@@ -35,31 +35,34 @@ if ( have_posts() ) {
 		<div class="contentCovidPage">
 			<div class="row">
 				<div class="col-md-8">
-					<div class="contetnPageodi">
+					<div class="contetnPageodi postContainerD">
 						<h2>
 							<?php the_field('headingContent'); ?>
 						</h2>
-						<ul>
-							<?php
-							   $i=1;
-								if( have_rows('COntentCovidPage') ):
-								    while ( have_rows('COntentCovidPage') ) : the_row(); ?>
-								        <li>
-								        	<h6>
-								        		<span>
-								        			<?php echo $i; ?>
-								        		</span>
-								        		<?php the_sub_field('headingName'); ?>
-								        	</h6>
-								        	<p>
-								        		<?php the_sub_field('contentListCvid'); ?>
-								        	</p>
-								        </li>
-								    <?php $i++; endwhile;
-								else :
-								endif;
-							?>
-						</ul>
+						<?php $data_query =  new WP_Query(array('post_type' => 'development', 'order_by','Des', 'posts_per_page' => 3));?>
+						<?php while ( $data_query->have_posts() ) : $data_query->the_post();?>
+							<ul id="PostContainerBlog">
+								<li class="displayFlex alignCenter">
+									<div class="imageContaineBLog">
+										<img src="<?php echo get_the_post_thumbnail_url(); ?>">
+									</div>
+									<div class="contentBlogPage">
+										<h4>
+											<?php the_title(); ?>
+										</h4>
+										<p>
+											<?php the_excerpt(); ?>
+										</p>
+										<span class="priceIs">
+											<?php the_field('price_d') ?>
+										</span>
+										<a href="<?php the_permalink(); ?>">
+											View Detail
+										</a>
+									</div>
+								</li>
+							</ul>
+						<?php endwhile?>
 					</div>
 				</div>
 			</div>
