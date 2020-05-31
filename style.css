@@ -924,3 +924,54 @@ input[type=number] {
     color: #ccbe9d;
     margin-right: 10px;
 }
+.rightColumnCOntact * {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+}
+
+.rightColumnCOntact h2 {
+    margin-left: 15px;
+}
+
+.rightColumnCOntact {
+    margin: 40px 0px 0px;
+}
+.ContentTestimonial 
+{
+    padding: 0px 0px 50px;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cccc;
+}
+.contetnTest:hover  {
+     background: url(./assets/images/testimonials.jpg); 
+     cursor: pointer;
+}
+.ContentTestimonial h2 {
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    color: #262626;
+}
+
+.ContentTestimonial h2::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #262626;
+    margin: 10px 0px 20px;
+}
+
+.ContentTestimonial p {
+    font-size: 14px;
+    color: #262626;
+}
+.contetnTest {
+    padding: 50px 70px 0px;
+}
+.BlogContainerTop h2.Biggr {
+    font-size: 85px;
+    margin-bottom: 60px;
+}
