@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Page Covid
+* Template Name: Page Resturant
 */
  get_header(); 
 if ( have_posts() ) {
@@ -16,26 +16,10 @@ if ( have_posts() ) {
 						<span class="NumberProfile">
 							01
 						</span>
-							<?php if (is_page('architect')) { ?>
-								<h5>
-									our
-								</h5>
-								<h2>
-									<?php the_field('headingContent'); ?>
-								</h2>
-							<?php } elseif (is_page('park-city')) { ?>
-								<h5>
-									see about
-								</h5>
-								<h2>
-									<?php the_field('headingContent'); ?>
-								</h2>
-							<?php } else { ?>
-								<h5>
-									Read about
-								</h5>
-								<h2>COVID-19 Virtual <br>Park City Real Estate</h2>
-							<?php } ?>
+						<h5>
+							Local Favorites on main ST
+						</h5>
+						<h2>for Lunch & Dinner <span class="ResturantSpan"><span class="ResturantSpanInner">Nancy Tallman </span>December 11, 2012 0</span></h2>
 						<p>
 							<?php the_content(); ?>
 						</p>

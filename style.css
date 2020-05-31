@@ -896,3 +896,31 @@ input[type=number] {
 .contetnPageodi.postContainerD #PostContainerBlog a {
     margin: 20px 0px 0px;
 }
+.contetnPageodi.ParkCity ul li {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.contetnPageodi.ParkCity ul li h6 {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #5c5353;
+}
+.BlogContainerTop h2 span {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5c5353;
+}
+
+.BlogContainerTop h2 span::after {
+    display: none;
+    /* display: inline-block; */
+}
+
+.BlogContainerTop h2 span span {
+    color: #ccbe9d;
+    margin-right: 10px;
+}
