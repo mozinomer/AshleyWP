@@ -16,10 +16,19 @@ if ( have_posts() ) {
 						<span class="NumberProfile">
 							01
 						</span>
-						<h5>
-							Read about
-						</h5>
-						<h2>COVID-19 Virtual <br>Park City Real Estate</h2>
+							<?php if (is_page('architect')) { ?>
+								<h5>
+									our
+								</h5>
+								<h2>
+									<?php the_field('headingContent'); ?>
+								</h2>
+							<?php } else { ?>
+								<h5>
+									Read about
+								</h5>
+								<h2>COVID-19 Virtual <br>Park City Real Estate</h2>
+							<?php } ?>
 						<p>
 							<?php the_content(); ?>
 						</p>
