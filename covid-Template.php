@@ -23,6 +23,13 @@ if ( have_posts() ) {
 								<h2>
 									<?php the_field('headingContent'); ?>
 								</h2>
+							<?php } elseif (is_page('new-development/')) { ?>
+								<h5>
+									see our
+								</h5>
+								<h2>
+									<?php the_field('headingContent'); ?>
+								</h2>
 							<?php } else { ?>
 								<h5>
 									Read about

@@ -42,3 +42,20 @@ if ( function_exists( 'add_theme_support' ) ) {
     // delete the next line if you do not need additional image sizes
     add_image_size( 'category-thumb', 300, 9999 ); // 300 pixels wide (and unlimited height)
  }
+
+function create_posttype() {
+    register_post_type( 'development',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Development' ),
+                'singular_name' => __( 'Developments' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'development'),
+            'supports' => array( 'title', 'editor',  'excerpt' )
+        )
+    );
+}
+add_action( 'init', 'create_posttype' );
