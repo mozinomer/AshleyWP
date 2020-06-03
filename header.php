@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -51,6 +52,9 @@
 					    'container_class' => 'headerMenu' ) ); 
 					?>
 				</nav>
+			</div>
+			<div class="hamburger">
+				<span></span>
 			</div>
 		</div>
 	</div>

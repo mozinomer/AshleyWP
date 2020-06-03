@@ -1361,7 +1361,7 @@ a.allblog {
     position: relative;
 }
 
-.bannerContainerHeader {
+body.home .bannerContainerHeader {
     display: flex;
     align-items: flex-end;
 }
@@ -1373,3 +1373,457 @@ header#Mainheader.black.scrolled {
 }
 
 header#Mainheader.black.scrolled {/* transform: scale(0.5); */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*resosive*/
+ 
+@media only screen and (max-width: 600px) { 
+/*header
+{
+    display: none !important;
+}*/
+.buttonsHomeanner {
+    display: block;
+}
+.buttonsHomeanner {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.containermapsearch {}
+
+.containermapsearch .row {
+    display: block;
+}
+
+.containermapsearch .row .col {
+    margin-bottom: 10px;
+}
+
+body.home .mapcontainer {
+    background-size: cover;
+}
+
+.BlogContainerTop h2 {
+    font-size: 22px !important;
+}
+
+.contentheading h5 {
+    font-size: 16px;
+}
+
+.contentheading span {
+    font-size: 15px;
+}
+
+.bglights .row .col-md-4 a {
+    font-size: 15px;
+}
+
+.boxContainer h2 {
+    font-size: 25px;
+}
+
+.boxContainer {
+    min-height: 250px;
+}
+
+.boxContainerbox img {
+    width: 100%;
+}
+
+.boxContainerbox p.prices {
+    font-size: 23px;
+}
+
+.boxContainerbox p {
+    font-size: 11px;
+}
+
+.boxContainerbox a {
+    font-size: 12px;
+    width: 100%;
+}
+
+.meet .container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contentCOntact .contentheading {
+    max-width: 100%;
+}
+
+.contentCOntact .displayFlex {
+    display: block;
+}
+
+.contentCOntact .contentheading {
+    margin-bottom: 30px;
+}
+
+.meet {
+    margin: 0px 0px;
+}
+
+a.learnMore {
+    margin-bottom: 30px;
+}
+
+.BlogContainerTop p {
+    font-size: 13px;
+    max-width: 100%;
+    width: 100%;
+}
+
+img.sliderImage {
+    position: relative;
+}
+
+.col-md-4.positionInherit {
+    padding: 0px;
+}
+
+img.sliderImage {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin: 40px 0px 0px;
+    display: none;
+}
+
+.col-md-4.positionInherit {
+    position: relative;
+}
+
+.slideImageContact ul.slick-dots {
+    position: relative;
+    bottom: -17px;
+}
+
+.contentSlider p {
+    font-size: 13px;
+    max-width: 100%;
+}
+
+.contentSlider h5 {
+    font-size: 18px;
+}
+
+.slideImageContact {
+    padding: 50px 0px 0px;
+}
+
+.col-md-5.blogis {
+    padding: 50px 40px;
+}
+
+.blogrow {
+    margin: 0px;
+}
+
+.blogrow .row .col-md-7 {
+    padding: 0px;
+    margin: 20px 0px;
+}
+
+.blogrow .backgroundImageCOntainer {
+    margin-bottom: 20px;
+}
+
+.HomeWorth h2 {
+    font-size: 22px;
+}
+
+.CalltoAction {
+}
+
+.profileBgSocail h2 {
+    font-size: 52px;
+}
+
+.SocialIcons .dispalyFlex {
+    flex-wrap: wrap;
+}
+
+.IconCOntainer {
+    flex: 0 29%;
+    width: 50%;
+    min-height: 90px;
+}
+
+.IconCOntainer i {
+    font-size: 20px;
+}
+
+#menu-footer-menu {
+    display: block;
+}
+.bglights .row .col-md-4 a {
+    max-width: 100%;
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0px auto 20px;
+}
+.bannerContainerHeader h2 {
+    font-size: 32px;
+}
+
+.blogImage {
+    max-height: 200px;
+    width: 100%;
+    margin: 20px 0px 0px;
+}
+
+.contetnPageodi ul li {
+    flex: 0 100%;
+}
+.bannerBg {
+    padding-top: 0px;
+}
+.bannerContainerHeader {
+    min-height: 130px;
+}
+#PostContainerBlog li {
+    display: block;
+}
+
+.imageContaineBLog {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.imageContaineBLog img {
+    object-fit: cover;
+}
+
+.contentBlogPage {
+    width: 100%;
+    margin: 20px 0px 0px;
+}
+.containerContactForm::after {
+    width: 100%;
+}
+
+.rightColumnCOntact h2 {
+    color: #fff;
+}
+
+.rightColumnCOntact h2 {
+    margin: 0pc 0px 20px;
+}
+
+.contentheading {
+    margin: 20px 10px;
+}
+
+.contentCOntact h2 {
+    font-size: 32px;
+}
+
+.contentCOntact p {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.slideImageContact {
+    min-height: auto;
+    padding-bottom: 60px;
+}
+.contetnPageodi h2 {
+    font-size: 22px;
+    line-height: normal;
+}
+
+.contetnPageodi h6 {
+    font-size: 16px;
+}
+
+.contetnPageodi p {
+    font-size: 13px;
+}
+.BlogContainerTop.golfPage p {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.checklistContainer h2 {
+    font-size: 22px;
+}
+
+.checklistContainer li {
+    font-size: 13px;
+}
+.mapcontainer {
+    background-size: cover;
+}
+.contetnTest:nth-child(even) {
+    background: url('./assets/images/testimonials.jpg');
+}
+
+.contetnTest:hover {
+    background: none;
+}
+
+.contetnTest {
+    padding: 0px 20px;
+}
+.ContentTestimonial {
+    border: none;
+    padding: 30px 0px 0px;
+}
+.contetnPageodi.utility-companies ul li {
+    flex: 0 41%;
+}
+
+.contetnPageodi.utility-companies ul li:last-child {
+    flex: 0 100%;
+}
+.containerListadnCall {
+    position: absolute;top: -10000%;
+    transition: 0.3s all;
+}
+
+header#Mainheader img {
+    width: 59px;
+    padding: 0px;
+}
+
+.hamburger {
+    display: block;
+    width: 25px;
+    height: 16px;
+    border: 2px solid #c7b187;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+}
+
+.hamburger span {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 2px;
+    background: #c7b187;
+    display: block;
+    top: 0;
+    bottom: 0;
+}
+.containerListadnCall.active {
+    top: 64px;
+    background: #fff;
+    left: 0;
+    right: 0px;
+    width: 100%;
+    padding: 20px;
+    transition: 0.3s all;
+    border-top: 1px solid #000;
+    display: block;
+}
+
+.UpperDow {
+    display: block;
+}
+
+.UpperDow p {
+    font-size: 14px;
+}
+
+.UpperDow p::after, .UpperDow p::before {
+    width: 40px;
+}
+
+header#Mainheader .CallerId img {
+    width: 30px;
+}
+
+.CallerId {
+    margin: 10px 0px 10px;
+}
+
+.CallerId h2 {
+    display: flex;
+    align-items: center;
+}
+
+header#Mainheader.black .CallerId a {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.mainMenu ul {
+    display: block;
+    text-align: center;
+}
+
+.mainMenu li:not(:first-child) {
+    margin: 0px;
+    display: block;
+    margin-bottom: 10px;
+}
+body.bodys {
+    overflow: hidden !important;
+}
+.bannerContainerHeader {
+    padding-top: 140px;
+    padding-bottom: 130px;
+}
+
+header#Mainheader {
+    height: 66px;
+}
+#Mainheader nav a {
+    color: #000;
+}
+
+.CallerId a {
+    color: #000;
+    margin-left: 10px;
+}
+.buttonsHomeanner {
+    position: relative;
+    bottom: auto;
+    top: auto;
+}
+}
