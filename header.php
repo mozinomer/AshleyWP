@@ -15,7 +15,11 @@
 </head>
 <?php wp_head(); ?>
 <body <?php echo body_class(); ?>>
-<header id="Mainheader">
+	<?php if(is_page('interative-map')) { 
+		$black = 'black'
+	?>
+<?php  } ?>
+<header id="Mainheader" class="<?php echo $black; ?>">
 	<div class="container">
 		<div class="containerRow displayFlex justifyB alignCenter">
 			<div class="logoContainerHeader">
@@ -51,6 +55,7 @@
 		</div>
 	</div>
 </header>
+<?php if(!is_page( array('interative-map', 'home' ) ) ) {?> 
 <div class="bannerContainerHeader" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');">
 	<div class="container">
 		<?php if (is_page( array( 'covid', 'blogs', 'mortgage', 'architect', 'new-development', 'park-city', 'restaurants', 'utility-companies' ) ) ) { ?>
@@ -70,6 +75,7 @@
 	    ?>
 	</div>
 </div>
+<?php  } ?>
 </div>
 
 
