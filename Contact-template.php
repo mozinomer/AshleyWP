@@ -61,64 +61,49 @@ if ( have_posts() ) {
 		</div>
 	</div>
 </div>
-<div class="sliderContactpage">
-	<div class="sliderContact">
-		<div class="slideLefter">
-			<div class="slidesLeft">
-				<div class="contentheading">
-					<span class="NumberProfile">
-						08
-					</span>
-					<h5>
-						why
-					</h5>
-					<h2>
-						Client raves
-					</h2>
+<div class="slideImageContact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row alignCenter">
+					<div class="col-md-12">
+						<div class="BlogContainerTop">
+							<div class="contentheading">
+								<span class="NumberProfile">
+									06
+								</span>
+								<h5>
+									Why
+								</h5>
+								<h2 style="font-size: 70px;">
+									Client raves
+								</h2>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="contentSlider">
-					<h5>
-						a Wonderful Experience
-					</h5>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
-					</p>
-					<span class="authorSlider">
-						Sandra White
-					</span>
-				</div>
-			</div>
-			<div class="slidesLeft">
-				<div class="contentheading">
-					<span class="NumberProfile">
-						08
-					</span>
-					<h5>
-						why
-					</h5>
-					<h2>
-						Client raves
-					</h2>
-				</div>
-				<div class="contentSlider">
-					<h5>
-						a Wonderful Experience
-					</h5>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
-					</p>
-					<span class="authorSlider">
-						Sandra White
-					</span>
+				<div class="slider">
+					<?php
+						if( have_rows('reviews', 'option') ):
+						    while ( have_rows('reviews', 'option') ) : the_row(); ?>
+								<div class="slidesLeft">
+									<div class="contentSlider">
+										<h5>
+											<?php the_sub_field('headingr', 'option') ?>
+										</h5>
+										<p>
+											<?php the_sub_field('contentr', 'option'); ?>
+										</p>
+									</div>
+								</div>
+						  <?php   endwhile;
+						else :
+						endif;
+					?>
 				</div>
 			</div>
-		</div>
-		<div class="slideRight">
-			<div class="imageSlider">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider.png">
-			</div>
-			<div class="imageSlider">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider.png">
+			<div class="col-md-4 positionInherit">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider.png" class="sliderImage">
 			</div>
 		</div>
 	</div>

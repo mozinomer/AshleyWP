@@ -1146,13 +1146,13 @@ header#Mainheader {
     top: 0;
     z-index: 999;
 }
-.bglights .BlogContainerTop h2 span {
+.headingss .BlogContainerTop h2 span {
     font-size: inherit;
     font-weight: inherit;
     color: #ccbe9d;
 }
 
-.bglights .BlogContainerTop h2 {
+.headingss .BlogContainerTop h2 {
     font-weight: 600;
 }
 
@@ -1163,4 +1163,205 @@ header#Mainheader {
 
 body.home .mapcontainer {
     margin-bottom: 0px;
+}
+.bglights .row .col-md-4 a {
+    border: 1px solid #262626;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #262626;
+    background: #fff;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.bglights a.viewall {
+    width: 205px;
+    height: 56px;
+    border: 1px solid #262626;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0px;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.bglights .row .col-md-4 a:hover,
+.bglights a.viewall:hover
+{
+    background: url('./assets/images/gradient.png')
+}
+.propertysometigng {
+    margin-top: 50px;
+}
+a.learnMore {
+    width: 205px;
+    height: 56px;
+    border: 1px solid #262626;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0px;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: normal;
+    margin-left: 0px;
+}
+.covidsection {
+    margin: 100px 0px 0px;
+}
+.slideImageContact 
+{
+    position: relative;
+    background: url('./assets/images/slider1.jpg');
+}
+.positionInherit {
+    position: inherit;
+}
+img.sliderImage {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.slideImageContact {
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.slideImageContact .contentheading h5 {
+    color: #262626;
+}
+
+.slideImageContact .contentheading span {
+    color: #262626;
+}
+
+.slideImageContact .contentheading span::after {
+    background: #262626;
+}
+.contentSlider h5 {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contentSlider p {
+    font-size: 15px;
+    max-width: 80%;
+}
+.slideImageContact ul.slick-dots {
+    display: flex;
+}
+
+.slideImageContact ul.slick-dots li {
+    width: 10px;
+    height: 10px;
+    /* font-size: 0; */
+    display: block;
+    background: #fff;
+    margin-right: 9px;
+    border-radius: 50%;
+}
+
+.slideImageContact ul.slick-dots button {
+    display: none;
+}
+
+.slideImageContact ul.slick-dots {
+    position: absolute;
+    bottom: -60px;
+}
+
+.slideImageContact ul.slick-dots li.slick-active {
+    background: #262626;
+}
+.slideImageContact {
+    margin: 100px 0px 0px;
+}
+.blogis {
+    background: url('./assets/images/blog.jpg');
+}
+.blogrow .BlogContainerTop h2,.blogrow .BlogContainerTop p  {
+    color: #fff;
+}
+.blogrow .BlogContainerTop .NumberProfile {
+    color: #fff;
+}
+
+.blogrow {
+    margin: 100px 0px;
+    min-height: 600px;
+}
+
+.blogrow > .row {
+    /* height: 100%; */
+    min-height: 600px;
+}
+
+.blogrow .BlogContainerTop {
+    max-width: 429px;
+    margin-left: auto;
+}
+
+.blogrow .row .col-md-7 {
+    padding: 80px;
+    /* display: flex; */
+}
+
+.blogrow .backgroundImageCOntainer {
+    min-height: 300px;
+}
+
+.blogrow .row .col-md-7 .col-md-4 {
+    height: 100%;
+}
+
+.col-md-5.blogis {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a.allblog {
+    width: 205px;
+    height: 56px;
+    border: 1px solid #262626;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0px;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: normal;
+    margin-left: 0px;
+    margin-left: 17px;
+    background: url('./assets/images/gradient.png');
+}
+.meet .container {
+    max-width: 80%;
+    width: 100%
+}
+.meet {
+    margin: 100px 0px;
+}
+.bannerContainerHeader .container {
+    position: relative;
+}
+
+.bannerContainerHeader {
+    display: flex;
+    align-items: flex-end;
 }

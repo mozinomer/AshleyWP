@@ -76,23 +76,13 @@
 	</div>
 </footer>
 <script type="text/javascript">
-	 $('.slideLefter').slick({
+	$('.slider').slick({
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
+	  infinite: false,
 	  arrows: false,
-	  rows: 0,
-	  infinite: false,
-	  fade: true,
-	  asNavFor: '.slideRight'
-	  centerMode: false,
-	});
-	$('.slideRight').slick({
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  rows: 0,
-	  infinite: false,
-	  asNavFor: '.slideLefter',
-	  focusOnSelect: true
+	  dots: true,
+	  focusOnSelect: false,
 	  centerMode: false,
 	});
 </script>
