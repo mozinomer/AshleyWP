@@ -975,3 +975,13 @@ input[type=number] {
     font-size: 85px;
     margin-bottom: 60px;
 }
+.contetnPageodi.utility-companies ul li {
+    flex: 0 27%;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.contetnPageodi.utility-companies ul li h6 {
+    font-size: 14px;
+    font-weight: 400;
+}

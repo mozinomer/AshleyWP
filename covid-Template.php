@@ -30,6 +30,13 @@ if ( have_posts() ) {
 								<h2>
 									<?php the_field('headingContent'); ?>
 								</h2>
+							<?php } elseif (is_page('utility-companies')) { ?>
+								<h5>
+									park city
+								</h5>
+								<h2>
+									<?php the_title(); ?>
+								</h2>
 							<?php } else { ?>
 								<h5>
 									Read about
@@ -50,9 +57,10 @@ if ( have_posts() ) {
 			<div class="row">
 				<div class="col-md-8">
 					<?php 
-						$classPark = 'ParkCity'
+						$classPark = 'ParkCity';
+						$utilitycompanies = 'utility-companies';
 					 ?>
-					<div class="contetnPageodi <?php if (is_page('park-city')) { echo $classPark; } ?>">
+					<div class="contetnPageodi <?php if (is_page('park-city')) { echo $classPark; } elseif(is_page('utility-companies')) { echo $utilitycompanies; } ?>">
 						<h2>
 							<?php the_field('headingContent'); ?>
 						</h2>
@@ -80,6 +88,11 @@ if ( have_posts() ) {
 							?>
 						</ul>
 					</div>
+					<?php if(is_page('utility-companies')) { ?>
+					<br>
+					<br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1539050.2473567717!2d-78.7257447206624!3d41.11361893228174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882d80261e32e589%3A0xc24621475022b43d!2sPennsylvania%2C%20USA!5e0!3m2!1sen!2s!4v1590948989436!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<?php } ?>
 				</div>
 			</div>
 		</div>
