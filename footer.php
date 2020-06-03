@@ -85,6 +85,15 @@
 	  focusOnSelect: false,
 	  centerMode: false,
 	});
+	$(window).scroll(function() {    
+	    var scroll = $(window).scrollTop();
+
+	    if (scroll >= 60) {
+	        $("header").addClass("black scrolled");
+	    } else {
+	        $("header").removeClass("black scrolled");
+	    }
+	});
 </script>
 <?php wp_footer(); ?>
 </body>
